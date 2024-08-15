@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <title>Rajibul</title>
+    <head>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    </head>
+  <style>
+  
+    *{
+  padding: 0;
+  margin: 0;
+}
+.body{
+  width:100%;
+  height:606px;
+  background-image: linear-gradient(90deg, #E0F8FA,#E2FAFC);
+  
+}
+.nav{
+  width:330px;
+  padding-top:20px;
+  margin:auto;
+  display: block;
+  transition: 0.5s;
+  opacity: 0;
+  animation: slidtop 1s ease forwards;
+
+  
+}
+.nav ul, .nav ul li{
+  width:100%;
+ 
+}
+.nav ul li{
+  text-align:center;
+}
+
+.nav ul li a{
+  text-decoration:none;
+  color:black;
+}
+
+.nav ul{
+  list-style-type:none;
+  display:flex;
+}
+.logo{
+  width:80px;
+  padding-top:20px;
+  padding-left:30px;
+  position:absolute;
+  display:inline-block;
+  color: #2263EF;
+  opacity: 0;
+  animation: slidright 1s ease forwards;
+}
+.lo1{
+  width:400px;
+  margin-top:131px;
+  margin-right: 50px;
+
+}
+p{
+  padding-left:30px;
+font-family:tahoma;
+  }
+.na{
+  font-size:45px;
+  font-family:tahoma;
+  text-align:center;
+}
+.ui{
+  font-size:20px;
+  color:#2263EF;
+  font-family:tahoma;
+}
+button{
+  padding:5px;
+  width:70px;
+  color:#fff;
+  background-color:#2263EF;
+  border:2px solid #2263EF;
+  border-radius:3px;
+  margin-left:30px;
+}
+.lo2{
+  width:60px;
+  padding-left:30px;
+  /* padding-bottom:1px; */
+ 
+    }
+.lo3{
+  width:60px;
+  padding-left:30px;
+}
+.lo4{
+  width:60px;
+  padding-left:30px;
+} 
+.lo5{
+  width:60px;
+  padding-left:30px;
+} 
+.R{
+  color: #2263EF;
+}
+.nav ul li a:hover{
+  text-decoration:none;
+  color: #2263EF;
+  font-size: 14px;
+}
+
+
+
+
+@keyframes slidright {
+  0%{
+    transform: translateX(-100px);
+    opacity: 0;
+    }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+    }
+}
+@keyframes slidtop {
+  0%{
+    transform: translateY(-100px);
+    opacity: 0;
+    }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+    }
+}
+
+
+
+  
+  </style>
+  
+<body>
+  <div class="body">
+    <div class="logo">
+      <h1><b>Legend.</b></h1>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="#"><b>Home</b></a></li>
+        <li><a href="#"><b>About</b></a></li>
+        <li><a href="#"><b>Skills</b></a></li>
+        <li><a href="#"><b>Services </b></a></li>
+        <li><a href="#"><b>Contact</b></a></li>
+      </ul>
+    </div>
+    <br><br>
+    <img src="man.png" align="right" class="lo1">
+  <br><br><br><br><br>
+    <p>Hello,<br><span class="na"><b><span class="R">I</span>'m <span class="R">R</span>ajibul <span class="R">I</span>slam</b></span><br><span class="ui"></span><br>From India</p>
+    <a href="#"><button>Hire Me</button></a>
+    <br><br><br>
+   <div class="somi">
+    <a href="#"><img src="linkedin.png" class="lo2"></a>
+    <a href="#"><img src="facebook.png"class="lo3"></a>
+    <a href="#"><img src="twitter.png" class="lo5"></a>
+    <a href="#"><img src="instagram.png" class="lo4"></a>
+   </div>
+  </div>
+
+
+
+  <script>
+    var typed = new Typed('.ui', {
+      strings: ["UI/UX Designer", "Frontend Developer", "Web Developer", "Programmer" ],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop: true,
+      });
+  </script>
+</body>
+</html>
